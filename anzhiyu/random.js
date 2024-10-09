@@ -1,3 +1,3 @@
-var posts=["2024/10/09/SAChO2-试卷/","2024/10/09/hello-world/","2024/10/09/SAChO2-答题卡/"];function toRandomPost(){
+var posts=["2024/10/09/SAChO2-答案/","2024/10/09/SAChO2-试卷/","2024/10/09/SAChO2-答题卡/","2024/10/09/SAChO3-答题卡/","2024/10/09/SAChO3-答案/","2024/10/09/SAChO4-答案/","2024/10/09/SAChO3-试卷/","2024/10/09/SAChO4-答题卡/","2024/10/09/SAChO4-试卷/","2024/10/09/SAChO5-答案/","2024/10/09/SAChO5-答题卡/","2024/10/09/SAChO6-答题卡/","2024/10/09/SAChO6-答案/","2024/10/09/SAChO6-试卷/","2024/10/09/SAChO5-试卷/","2024/10/09/SAChO7-试卷/","2024/10/09/SAChO7-答案/","2024/10/09/SAChO7-答题卡/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
